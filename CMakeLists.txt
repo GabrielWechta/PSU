@@ -50,7 +50,7 @@ SET(CMAKE_CXX_FLAGS_DEBUG  "-O0 -g3 -ggdb -rdynamic")
 include_directories("${CMAKE_SOURCE_DIR}")
 
 # default location for libOTe
-set(libOTe_Dirs "${CMAKE_SOURCE_DIR}/libOTe/")
+set(libOTe_Dirs "${CMAKE_SOURCE_DIR}/libOTe")
 include_directories("${libOTe_Dirs}/") 
 include_directories("${libOTe_Dirs}/cryptoTools") 
 
