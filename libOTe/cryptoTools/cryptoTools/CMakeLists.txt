@@ -115,7 +115,7 @@ set(Boost_USE_MULTITHREADED      ON)
 set(Boost_USE_STATIC_RUNTIME     ON)
 
 macro(findBoost)
-      find_package(Boost 1.65.1 COMPONENTS system thread)
+      find_package(Boost 1.64.0 COMPONENTS system thread)
 endmacro()
     
 findBoost()
